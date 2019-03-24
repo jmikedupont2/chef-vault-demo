@@ -20,9 +20,9 @@ The first two examples are meant to build a bit of familiarity with data bags an
 
 - Have ChefDK installed
 - Clone this repo, then `cd` to the top level
-- Examples 1 & 2 run a lot faster using `inspec` and `kitchen-dokken`. To use them w/ \*nix system, make sure you have `kitchen-inspec` version 0.12.1 or greater, and set:
+- Examples 1 & 2 run a lot faster using `inspec` and `kitchen-dokken`. To use them w/ \*nix system, make sure you have `kitchen-inspec` version 0.12.1 or greater, and set: 
 
-    export KITCHEN_LOCAL_YAML=.kitchen.dokken.yml
+    `export KITCHEN_LOCAL_YAML=.kitchen.dokken.yml`
 
   - Setting up Docker and kitchen-dokken is out of scope of this README
 
