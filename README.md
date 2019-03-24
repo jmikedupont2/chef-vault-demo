@@ -38,9 +38,9 @@ pushd cookbooks/vault-demo
 
 Let's look at how we use a Chef data bag with a template in a recipe:
 
-```
-more templates/default/s3cfg.rb
-more recipes/default.rb
+
+    more templates/default/s3cfg.rb
+    more recipes/default.rb
 
 In the recipe we've replaced the variable assignments with a fetch from a data bag:
 
